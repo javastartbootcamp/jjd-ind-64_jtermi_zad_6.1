@@ -5,10 +5,8 @@ public class Logic {
         boolean result = false;
         if (var < 100) {
             System.out.println("podana liczba jest za mała");
-            result = false;
         } else if (var > 200) {
             System.out.println("podana liczba jest za duża");
-            result = false;
         } else {
             result = true;
         }
